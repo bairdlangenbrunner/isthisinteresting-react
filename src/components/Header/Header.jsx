@@ -11,7 +11,7 @@ function Header() {
       >
         <section className="header-content">
 
-            <Link to="/">is this interesting</Link>
+            <Link to="/" className="font-bold">is this interesting</Link>
 
           {/* <!-- <button id="mobile-open-button" class="text-lg sm:hidden"> */}
           {/* ☰ */}
@@ -19,7 +19,7 @@ function Header() {
           {/* <!-- <nav class="hidden sm:block sm:space-x-2 text-lg" aria-label="main"> --> */}
           <nav id="header-nav" aria-label="main">
             <Link to="/about" className="hidden">about</Link>
-            <Link to="/archive" className="hidden">archive</Link>
+            <Link to="/archive" >archive</Link>
             {/* <a href="../src/index.html">about</a> */}
             {/* <a href="../src/index.html">archive</a> */}
           </nav>

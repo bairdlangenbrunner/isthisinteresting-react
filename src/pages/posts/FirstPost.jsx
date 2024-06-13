@@ -38,9 +38,9 @@ function FirstPost() {
                 I often wonder if I went into climate science for the graphics.
               </p>
               <p>
-                Satellite imagery and weather/climate information can all be
-                very beautiful to visualize, and a good graphic or map is one
-                that conveys a lot of information quickly and simply, but can be
+                Satellite imagery and weather/climate information can be very
+                beautiful to visualize, and a good graphic or map is one that
+                conveys a lot of information quickly and simply, but can be
                 studied for much longer. It's the stuff of dreams.
               </p>
 
@@ -60,8 +60,8 @@ function FirstPost() {
                 </Link>
                 , created in the 1960s by a geographer who wanted an alternative
                 to the Mercator projection. And for good(e?) reason: the
-                homolosine shows the continents near the polls with a lot less
-                distortion than{" "}
+                homolosine shows areas near the polls with a lot less distortion
+                than{" "}
                 <Link
                   to="https://en.wikipedia.org/wiki/Mercator_projection"
                   target="_blank"
@@ -84,11 +84,10 @@ function FirstPost() {
               <p className="text-center">△△△</p>
 
               <p>
-                As a grad student and postdoc, and even today when I write about
-                oil and gas for my job, I've always spent what feels like a LOT
-                more time fine-tuning the maps and graphics of a paper or
-                project than I would spend on the data analysis and research
-                itself.
+                As a grad student and postdoc, and even today when I work on oil
+                and gas for my job, I've always spent what feels like a LOT more
+                time fine-tuning the maps and graphics of a paper or project
+                than I would spend on the data analysis and research itself.
               </p>
 
               <p>
@@ -100,13 +99,13 @@ function FirstPost() {
               </p>
               <p>
                 {" "}
-                But let's set the record straight. Making graphics to visualize
-                your data <em>is</em> a crucial part of the research process,
-                and it takes a lot of data wrangling to get to that stage in the
-                first place. You <strong>should</strong> spend a lot of time
-                making graphics. Still, I've questioned whether my PhD was a
-                degree in how matplotlib works, rather than one in climate
-                science. At best, it was both. At worst, well!
+                I have to remind myself that making graphics to visualize data{" "}
+                <em>is</em> a crucial part of the research process, and it takes
+                a lot of data wrangling to get to that stage. You{" "}
+                <strong>should</strong> spend time on this part. Still, I've
+                questioned whether my PhD was a degree in how matplotlib works,
+                rather than one in climate science. At best, it was both. At
+                worst, well.
               </p>
 
               <h3 className="h3-post">
@@ -119,41 +118,42 @@ function FirstPost() {
                 self-serious ones out there even seem to take pride in their
                 inability to make an accessible graphic. There are classic books
                 on how to design scientific figures, but they're old and
-                outdated for the mobile device age. Unless you're already very
-                design-minded, or you're going to school for it, there's really
-                was no way to learn these things beyond teaching them to
-                yourself.
+                outdated for the mobile device age. Unless you're you're going
+                to school for it, there's really was no way to learn these
+                things beyond teaching them to yourself.
               </p>
 
-              <p>
-                I remember as students, we were left to make graphics, and
-                develop the codebase necessary for them, on our own. We would
-                mostly learn from what was already out there in papers and
-                books, and at the time (late 2000s, early 2010s), the fraction
-                of scientists using GitHub to make reproducible code and figures
-                was pretty small.
-              </p>
+              {/* <p>
+                Today, GitHub is a major resource for community-driven software
+                and tools to do these things, but when I was first learning how
+                to make maps or to analyze climate data (late 2000s, early
+                2010s), the fraction of scientists using GitHub for that reason
+                felt pretty small. I taught myself data viz through tedius
+                documentations and stackoverflow posts. And in my entire
+                department at UCLA, I was one of only two or three who used
+                Python; nearly everyone else was in proprietary MATLAB land.
+              </p> */}
               <p>
                 For me, it felt as if some of the things that brought me to
                 climate science in the first place — communicating climate
-                change; making accessible and narrative-driven visuals — were
-                rarely the things that got grants funded or were received well
-                by reviewers.
+                change; making accessible and narrative-driven visuals; spending
+                time with open-source software and data — were not the things
+                that got grants funded or papers accepted.
               </p>
 
-              <Triangles />
+              {/* <Triangles /> */}
 
               <p>
                 The thinking has evolved in the past decade, of course, and
-                thoughtful graphic design is way further along in some
-                disciplines, like geography and urban planning. Those folks
-                really know the value of a map. But atmospheric scientists and
-                oceanographers, not so much.
+                graphic design-driven map making has always been further along
+                in some disciplines, like geography and urban planning. I think
+                the Earth sciences are learning a ton from them.
               </p>
 
               <p>
-                But this all started to change a bit, in my opinion, as the IPCC
-                reports got prettier.{" "}
+                For climate science in particular, I think data viz smarts
+                really co-evolved with the maturation of the graphics in the
+                IPCC reports.{" "}
                 <Link
                   to="https://www.ipcc.ch/assessment-report/ar5/"
                   target="_blank"
@@ -161,27 +161,34 @@ function FirstPost() {
                   AR5
                 </Link>
                 , for example, was a pretty monumental shift in how climate
-                change predictions had been presented and they even produced a{" "}
+                change predictions had been presented, and the effort even
+                produced a{" "}
                 <Link
                   to="https://www.ipcc.ch/site/assets/uploads/2019/04/IPCC-visual-style-guide.pdf"
                   target="_blank"
                 >
                   style guide
                 </Link>
-                , a first of its kind.
+                , a first of its kind. These reports served as academic texts to
+                a lot of us. They were tomes of our current scientific
+                understanding of climate change.
               </p>
-              
+
               <figure className="sm:w-[450px] mx-auto">
-                <img
-                  src={spmFig08}
-                  alt="IPCC AR5 SPM Figure 8"
-                />
+                <img src={spmFig08} alt="IPCC AR5 SPM Figure 8" />
                 <figcaption>
-                  Figure 8 from the <Link to="https://www.ipcc.ch/report/ar5/wg1/summary-for-policymakers/">IPCC AR5 Summary for Policymakers</Link>, showing low- and high-emissions climate trajectories for temperature, precipitation, sea ice extent, and ocean surface pH. This was one of the first times the Robinson projection was used in a report like this.
+                  Figure 8 from the{" "}
+                  <Link to="https://www.ipcc.ch/report/ar5/wg1/summary-for-policymakers/">
+                    IPCC AR5 Summary for Policymakers
+                  </Link>
+                  , showing low- and high-emissions climate trajectories for
+                  temperature, precipitation, sea ice extent, and ocean surface
+                  pH. This was one of the first times the Robinson projection
+                  was used in a report like this.
                 </figcaption>
               </figure>
 
-              <p>
+              {/* <p>
                 Even the{" "}
                 <Link
                   to="https://en.wikipedia.org/wiki/Robinson_projection"
@@ -189,10 +196,17 @@ function FirstPost() {
                 >
                   Robinson
                 </Link>{" "}
-                projection was pivotal. That was probably the first time in my
-                scientific career that the question of which projection to use
-                when looking at global climate change maps came up. It was a
-                paradigm shift compared to the{" "}
+                projection was pivotal, at least to me. I think a lot of figures
+                in the scientific literature were using an{" "}
+                <Link
+                  to="https://en.wikipedia.org/wiki/Equirectangular_projection"
+                  target="_blank"
+                >
+                  equidistant cylindrical
+                </Link>{" "}
+                projection before this, unwinding Antarctica into an icy mess at
+                the bottom of the map. The Robinson projection may not be the
+                best, but it was a paradigm shift compared to the{" "}
                 <Link
                   to="https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf"
                   target="_blank"
@@ -200,14 +214,14 @@ function FirstPost() {
                   report
                 </Link>{" "}
                 before it.
-              </p>
+              </p> */}
               <p>
                 Those graphics still have a long way to go to be accessible to
                 the general public, I think, and to be readable on cell
                 phones... but that's not ultimately why they're being created.
               </p>
 
-              <h3 className="h3-post">But I'd like to be</h3>
+              <h3 className="h3-post">I'd like to be data viz people</h3>
 
               <p>
                 Anyway, I've been bouncing among climate research, academic
@@ -215,7 +229,7 @@ function FirstPost() {
                 more recent work has taken me away from weather and climate
                 research. I've realized I really miss it, and I'm starting up
                 this blog so I can hold myself more accountable and get back in
-                the game.
+                the game — and document what I try out.
               </p>
               <p>
                 In particular, I'd like to start trying my hand at more data
@@ -238,8 +252,8 @@ function FirstPost() {
               </p>
               <p>
                 But I'm trying to change my comfort level with it all. I'll be
-                building out this website with posts and potentially projects as
-                I move through them, and I'm hoping to keep things ambitious..
+                building out this website with posts and projects as I move
+                through them, and I'm hoping to keep things ambitious.
               </p>
               <p>
                 If you've stumbled across this — and I sure as hell wouldn't

@@ -6,6 +6,7 @@ import FavoriteResources from "./pages/FavoriteResources";
 import FirstPost from "./pages/posts/FirstPost";
 import About from "./pages/About";
 import Archive from "./pages/Archive";
+import PowerOfSiberia2 from "./pages/posts/PowerOfSiberia2";
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <ul>
         <li><Link to="/">home</Link></li>
         <li><Link to="/favorites">favorite resources</Link></li>
-        <li><Link to="/posts">inaugural post</Link></li>
+        <li><Link to="/posts/first-post">inaugural post</Link></li>
+        <li><Link to="/posts/pos2">power of siberia 2</Link></li>
       </ul>
     </nav>
     <Routes>
@@ -23,7 +25,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/archive" element={<Archive />} />
       <Route path="/favorites" element={<FavoriteResources />} />
-      <Route path="/posts/:id" element={<FirstPost />} />
+      <Route path="/posts/first-post" element={<FirstPost />} />
+      <Route path="/posts/pos2" element={<PowerOfSiberia2 />} />
     </Routes>
   </>
   )
