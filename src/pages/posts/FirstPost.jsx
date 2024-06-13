@@ -118,7 +118,7 @@ function FirstPost() {
                 self-serious ones out there even seem to take pride in their
                 inability to make an accessible graphic. There are classic books
                 on how to design scientific figures, but they're old and
-                outdated for the mobile device age. Unless you're you're going
+                outdated for the mobile device age. Unless you're going
                 to school for it, there's really was no way to learn these
                 things beyond teaching them to yourself.
               </p>
