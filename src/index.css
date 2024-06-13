@@ -4,6 +4,7 @@
 
 * {
   @apply text-neutral-800;
+  @apply font-monospace;
 }
 
 /* anything in <p> should have serif and lighter neutral color */
@@ -18,6 +19,9 @@ p * {
 @layer base {
   .body-div {
     @apply h-screen;
+    @apply sm:h-screen;
+    /* @apply h-full; */
+    /* @apply sm:h-full; */
     @apply bg-white;
     @apply flex;
     @apply flex-col;
@@ -48,7 +52,6 @@ p * {
     @apply items-center;
     @apply text-lg;
     @apply sm:text-xl;
-    @apply font-monospace;
   }
   #header-nav {
     @apply space-x-3;
@@ -65,8 +68,8 @@ p * {
     @apply mx-auto;
     @apply w-[100%];
     @apply text-right;
-    @apply text-sm;
-    @apply sm:text-base;
+    @apply text-xs;
+    @apply sm:text-sm;
   }
 
   .header-content,
@@ -155,9 +158,9 @@ p * {
   .date,
   .author {
     @apply text-right;
-    @apply font-sans;
+    /* @apply font-sans; */
     /* @apply bg-neutral-100; */
-    @apply text-sm;
+    @apply text-xs;
     /* @apply sm:text-sm; */
   }
 

@@ -8,7 +8,7 @@ function Footer() {
         <section className="footer-content">
         this site is maintained on github{" "}
           <Link
-            to="https://github.com/bairdlangenbrunner/bairdlangenbrunner"
+            to="https://github.com/bairdlangenbrunner/isthisinteresting"
             target="_blank"
             rel="noopener noreferrer"
           >
