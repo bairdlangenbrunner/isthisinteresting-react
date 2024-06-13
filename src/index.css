@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply text-neutral-800;
+  @apply text-neutral-700;
   @apply font-monospace;
 }
 
@@ -38,7 +38,7 @@ p * {
   }
 
   .header-div {
-    @apply bg-neutral-800;
+    @apply bg-neutral-700;
     @apply fixed;
     @apply z-10;
     @apply w-screen;
@@ -138,19 +138,12 @@ p * {
     @apply sm:my-[1.25rem];
   }
 
-  .article-text-div {
-    /* @apply mt-[1.5rem]; */
-    /* @apply mb-[2rem]; */
-  }
-
   .article-heading-div {
-    /* @apply border; */
     @apply flex;
     @apply flex-col;
     gap: 15px;
     @apply my-[1.75rem];
-    /* @apply sm:my-[1.75rem]; */
-    @apply bg-pink-50;
+    background-color: rgb(255,0,255,0.05);
     @apply p-[15px];
     @apply rounded-lg;
   }
