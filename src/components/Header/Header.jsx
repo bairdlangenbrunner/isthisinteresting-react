@@ -11,7 +11,7 @@ function Header() {
       >
         <section className="header-content">
 
-            <Link to="/" className="font-bold">is this interesting</Link>
+            <Link to="/" className="font-bold font-monospace">is this interesting</Link>
 
           {/* <!-- <button id="mobile-open-button" class="text-lg sm:hidden"> */}
           {/* ☰ */}

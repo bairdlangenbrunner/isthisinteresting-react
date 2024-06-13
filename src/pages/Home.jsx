@@ -13,13 +13,16 @@ function Home() {
         <Header />
         <div className="main-div">
           {/* <Homolosine /> */}
-          <h1 className="sm:text-8xl text-5xl text-right mt-[100px] font-[900]">
-            is this interesting though seriously
+          <h1 className="sm:text-6xl text-5xl text-right mt-[100px] font-[900] font-monospace">
+            <div>is this</div>
+            <div>interesting</div>
+            <div>though</div>
+            <div>seriously</div>
           </h1>
-          <div className="w-[250px] my-auto">
-            <article class="m-auto text-lg text-left leading-[1.25rem]">
-              this site is still deeply under construction, but you can see my
-              inaugural post, and read about whatever this is,{" "}
+          <div className="w-[300px] my-auto">
+            <article class="m-auto text-lg text-left leading-[1.25rem] font-monospace">
+              this site is deeply under construction, but you can see my
+              inaugural post{" "}
               <Link to="/posts/first-post">here</Link>
             </article>
           </div>

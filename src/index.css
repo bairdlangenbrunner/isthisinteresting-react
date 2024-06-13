@@ -48,6 +48,7 @@ p * {
     @apply items-center;
     @apply text-lg;
     @apply sm:text-xl;
+    @apply font-monospace;
   }
   #header-nav {
     @apply space-x-3;
