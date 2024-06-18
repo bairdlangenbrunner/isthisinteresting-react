@@ -15,7 +15,7 @@ function FirstPost() {
         <section className="main-div">
           <article>
             <div className="article-heading-div">
-              <div classame="h1-post-div">
+              <div className="h1-post-div">
                 <h1 className="h1-post">Baby's first post </h1>
               </div>
 
@@ -118,9 +118,9 @@ function FirstPost() {
                 self-serious ones out there even seem to take pride in their
                 inability to make an accessible graphic. There are classic books
                 on how to design scientific figures, but they're old and
-                outdated for the mobile device age. Unless you're going
-                to school for it, there's really was no way to learn these
-                things beyond teaching them to yourself.
+                outdated for the mobile device age. Unless you're going to
+                school for it, there's really was no way to learn these things
+                beyond teaching them to yourself.
               </p>
 
               {/* <p>
@@ -216,12 +216,23 @@ function FirstPost() {
                 before it.
               </p> */}
               <p>
+                Little by little, map projections and color schemes like these
+                have trickled into academic publications and conference
+                presentations. It's been a great thing to witness, and I
+                remember holding high standards for figures when I worked as an
+                academic editor myself, asking authors to modify things to make
+                them more accessible.
+              </p>
+
+              <p>
                 Those graphics still have a long way to go to be accessible to
                 the general public, I think, and to be readable on cell
                 phones... but that's not ultimately why they're being created.
+                And they really did set off an inspiring trend that continues to
+                pick up speed.
               </p>
 
-              <h3 className="h3-post">I'd like to be data viz people</h3>
+              <h3 className="h3-post">But I'd like to be</h3>
 
               <p>
                 Anyway, I've been bouncing among climate research, academic
@@ -229,13 +240,14 @@ function FirstPost() {
                 more recent work has taken me away from weather and climate
                 research. I've realized I really miss it, and I'm starting up
                 this blog so I can hold myself more accountable and get back in
-                the game — and document what I try out.
+                the game — and document what I experiment with.
               </p>
               <p>
-                In particular, I'd like to start trying my hand at more data
-                journalism and environmental change analysis with the growing
-                number of tools out there, and I've realized my lack of front-
-                and backend skills have been holding me back from my goals.
+                In particular, I'd like to try my hand at more data journalism
+                and environmental change analysis with the growing number of
+                tools out there, and I've realized my lack of front- and backend
+                skills have been holding me back from my goals, because I also
+                want to present them in a way that I have autonomy over.
               </p>
               <p>
                 I've also felt some impostor syndrome about all of this; careers
