@@ -86,7 +86,7 @@ p * {
     @apply text-neutral-500;
   }
 
-  .header-content a, {
+  .header-content a {
     color: white;
   }
   .header-content a:hover {
