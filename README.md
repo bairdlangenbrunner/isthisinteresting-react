@@ -1,3 +1,3 @@
 # is this interesting
 
-repo for personal blog/tinkering space
+this is no longer updated; see the active version [here](https://github.com/bairdlangenbrunner/isthisinteresting)
